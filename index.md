@@ -14,17 +14,6 @@
 </head>
 
 <body>
-    <?php include "partials/_header.php"; ?>
-    <?php
-    if (isset($_GET['error'])) {
-        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
-        <strong>Error!</strong> Password did not match.
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>';
-    }
-    ?>
 
     <div class="container  bg-info text-dark col-md-6 my-5 p-3 rounded">
         <!-- style="background: url('https://source.unsplash.com/500x400/?nature,water')" -->
